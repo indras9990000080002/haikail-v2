@@ -25,10 +25,9 @@ global.botname = 'juned bot' //ubah jadi nama bot mu, note tanda ' gausah di hap
 global.footer = 'ente kadang kadang' //ubah jadi nama mu, note tanda ' gausah di hapus!
 //=================================================//
 // Other
-global.owner = ['19294528424']
-global.packname = '                                                                                                                                                                                '
+global.owner = 'INDRA'
 global.ownerr = ['juned']
-global.author = 'INDRA'
+global.author = 'GANS'
 global.sessionName = './fallen'
 global.prefa = ['','!','.',',','🐤','🗿']
 global.sp = '⭔'
