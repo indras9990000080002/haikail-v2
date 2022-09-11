@@ -25,7 +25,7 @@ global.botname = 'juned bot' //ubah jadi nama bot mu, note tanda ' gausah di hap
 global.footer = 'ente kadang kadang' //ubah jadi nama mu, note tanda ' gausah di hapus!
 //=================================================//
 // Other
-global.owner = ['19294528626']
+global.owner = ['19294528424']
 global.packname = 'juned'
 global.ownerr = ['indra']
 global.author = 'Bot Privat🎭'
