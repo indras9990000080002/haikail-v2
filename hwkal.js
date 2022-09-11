@@ -27,7 +27,7 @@ global.footer = 'ente kadang kadang' //ubah jadi nama mu, note tanda ' gausah di
 // Other
 global.owner = 'INDRA'
 global.ownerr = ['juned']
-global.author = 'GANS'
+global.author = 'INDRA GANS'
 global.sessionName = './fallen'
 global.prefa = ['','!','.',',','🐤','🗿']
 global.sp = '⭔'
