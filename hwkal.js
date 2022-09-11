@@ -17,17 +17,17 @@ global.mygc = 'wa.me/6282393734303'
 global.myweb = 'https://eclass.iainsalatiga.ac.id/app/upload/users/1/10892/my_files/XhiroMhonshine.html'
 global.linkgrupss = "https://chat.whatsapp.com/"
 global.linkpro = 'mailto:support@whatsapp.com?subject=Deactivate%20My%20Account%20Number&body=Please%20Deactivate%20The%20My%20Account%20Number%20%2B62XXXXXXXX%20Immediately%20Because%20The%20Number%20Has%20Been%20Lost'
-global.email = 'openbo15k@gmail.com'
+global.email = 'jnckprist@gmail.com'
 global.region = 'indonesia'
 //—————「 Set Nama Own & Bot 」—————//
-global.ownername = 'ꪶ 𝟒𝐑𝐚𝐧𝐳𝐙 〩 𝐌𝐨𝐝𝐬 丰 ' //ubah jadi nama mu, note tanda ' gausah di hapus!
-global.botname = 'ꪶ 𝟒𝐑𝐚𝐧𝐳𝐙 〩 𝐌𝐨𝐝𝐬 丰' //ubah jadi nama bot mu, note tanda ' gausah di hapus!
-global.footer = 'ꪶ 𝟒𝐑𝐚𝐧𝐳𝐙 〩 𝐌𝐨𝐝𝐬 丰' //ubah jadi nama mu, note tanda ' gausah di hapus!
+global.ownername = 'indra' //ubah jadi nama mu, note tanda ' gausah di hapus!
+global.botname = 'juned bot' //ubah jadi nama bot mu, note tanda ' gausah di hapus!
+global.footer = 'ente kadang kadang' //ubah jadi nama mu, note tanda ' gausah di hapus!
 //=================================================//
 // Other
-global.owner = ['6282393734303']
-global.packname = 'ꪶ 𝟒𝐑𝐚𝐧𝐳𝐙 〩 𝐌𝐨𝐝𝐬 丰'
-global.ownerr = ['ꪶ 𝟒𝐑𝐚𝐧𝐳𝐙 〩 𝐌𝐨𝐝𝐬 丰']
+global.owner = ['19294528626']
+global.packname = 'juned'
+global.ownerr = ['indra']
 global.author = 'Bot Privat🎭'
 global.sessionName = './fallen'
 global.prefa = ['','!','.',',','🐤','🗿']
