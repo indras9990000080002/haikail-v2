@@ -1070,16 +1070,20 @@ break
 case 'pristel': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
+var messa = fs.readFileSync('./baseikal/sound/ketawa.mp3')
+ haikal.sendMessage(m.chat, {audio: mom, mimetype: 'audio/mpeg', ptt:true }, {quoted:doc})
+ }
+ break
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
 var requestPaymentMessage = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "requestPaymentMessage": {
 "currencyCodeIso4217": "IDR",
-"amount99999999999999999": "999999999999",
+"amount1000000": "10000",
 "requestPaymentimage": messa.imageMessage,
 "requestFrom": "@s.whatsapp.net",
 "noteMessage": {
 "extendedTextMessage": {
-"text": `teefer-999999999999`,
+"text": `memek`,
 }
 }}}), { userJid: m.chat, quoted: m })
 haikal.relayMessage(m.chat, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
