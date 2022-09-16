@@ -501,10 +501,9 @@ haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
 break
 //=================================================//
 case 'setppgroup': case 'setppgrup': case 'setppgc': {
+if (!isCreator) return
 if (isBan) throw sticBanLu(from)
-if (!isRegistered) return replyReg(mess.verif)
-if (!m.isGroup) throw mess.group
-if (!isOwner) throw false
+
 sticWait(from)
 if (!quoted) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
 if (!/image/.test(mime)) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
