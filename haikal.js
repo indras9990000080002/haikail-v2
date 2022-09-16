@@ -1070,10 +1070,6 @@ break
 case 'pristel': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
-var messa = fs.readFileSync('./baseikal/sound/ketawa.mp3')
- haikal.sendMessage(m.chat, {audio: mom, mimetype: 'audio/mpeg', ptt:true }, {quoted:doc})
- }
- break
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
 var requestPaymentMessage = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "requestPaymentMessage": {
@@ -1083,7 +1079,7 @@ var requestPaymentMessage = generateWAMessageFromContent(m.chat, proto.Message.f
 "requestFrom": "@s.whatsapp.net",
 "noteMessage": {
 "extendedTextMessage": {
-"text": `memek`,
+"text": `teefer-99999`,
 }
 }}}), { userJid: m.chat, quoted: m })
 haikal.relayMessage(m.chat, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
